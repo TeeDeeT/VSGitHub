@@ -13,8 +13,13 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
     <Folder Include="Views\Home\" />
     <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TDTISData\TDTISData.csproj" />
   </ItemGroup>
 
 </Project>
